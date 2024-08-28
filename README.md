@@ -11,5 +11,5 @@ Este projeto inclui páginas HTML que utilizam JavaScript para diferentes funcio
 
 ## Funcionalidades JavaScript:
 
-Redirecionamento automático e baseado em condições.
+Redirecionamento automático e baseado em condições.<br>
 Solicitação e validação de código de acesso.
