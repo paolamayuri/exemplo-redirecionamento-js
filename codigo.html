@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale-1.0">
+    <title>Front-End Essencial</title>
+    <!-- vinculando css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript">
+        /*cria variavel p receber, ou envia p pdf ou da erro*/
+        let codigo = prompt("Insira seu código de acesso ao material: ");
+
+        if(codigo === "paola"){
+            window.location.href = "materia.pdf";     /* linkei no pdf caso acerte o codigo */
+        } else{
+            window.location.href = "erro.html"; 
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <header>    <!-- nav de navegação, a href é link -->
+        <!-- <nav>
+            <a href="#">Início</a>
+            <a href="#">Cursos</a>
+            <a href="#">Sobre</a>
+        </nav> -->
+
+        <h3>EXEMPLO PAGINA JAVASCRIPT</h3>
+        <h4>Material Gratuito</h4>
+    </header>
+
+    <br><br><br><br><br><br>
+
+    <section class="container">
+        
+
+    </section>
+
+    <br>
+
+    </section>
+
+    <br>
+
+    <br> <br>
+
+    <footer>
+        <h3>EXEMPLO PAGINA JAVASCRIPT</h3>
+        <h4>FRONT-END Essencial</h4>
+        <br>
+        <p class="texto-footer">Contatos:</p>
+        <p class="texto-footer">Email: paola.oda@edu.unipar.br</p>
+        <br>
+    </footer>
+
+
+</body>
+</html>
